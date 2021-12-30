@@ -1,0 +1,42 @@
+.card{
+    padding: 10px;
+    border: 2px #7379ca77 solid;
+    border-radius: 7px;
+    margin: 50px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 350px;
+    width: 350px;
+    background-color: #151515;
+
+    h2 {
+        text-align: center;
+        color: #dab111;
+        background-color: #151515;
+    }
+ 
+    p {
+        color: #222
+    }
+
+    img {
+        border-radius: 7px;
+    }
+
+    button {
+        color: #dab111;
+        background-color: #420699;
+        border: #2e056d;
+        padding: 15px;
+        margin: 15px;
+        font-size: larger;
+        border-radius: 5px;
+        text-align: center;
+        &:hover {
+            color: #ffd21d;
+            background-color: #530ac2;
+        }
+    }
+
+}
