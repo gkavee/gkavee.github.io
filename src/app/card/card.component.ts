@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-const words1 = ["krasniy", "super", "siniy", "krovaviy", "voenniy"];
-const words2 = ["gigant", "mutant", "zombi", "skelet", "monstr"];
+const words1 = ["krasniy", "super", "siniy", "krovaviy", "voenniy", ];
+const words2 = ["gigant", "mutant", "zombi", "skelet", "monstr", "ynechtozitel"];
 const space = ["", "_", ".", "-", " "];
 const images = [
   "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/e9/e939270df656f19fbeab44d29ebf36d93b1dd4d3_full.jpg",
