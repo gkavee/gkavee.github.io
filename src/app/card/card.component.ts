@@ -23,10 +23,11 @@ export class CardComponent {
   constructor() { }
   
   changeNickname() {
-    const word = words[Math.floor(Math.random() * words.length)];
+    const word1 = words[Math.floor(Math.random() * words.length)];
+    const word2 = words[Math.floor(Math.random() * words.length)];
     const spaceready = space[Math.floor(Math.random() * space.length)];
     const number = Math.floor(Math.random() * 9999);
-    const preset = word + spaceready + word + spaceready + number;
+    const preset = word1 + spaceready + word2 + spaceready + number;
     this.nickname = preset
     this.imageUrl = images[Math.floor(Math.random() * images.length)];
   }
