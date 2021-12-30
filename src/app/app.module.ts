@@ -4,15 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { LinksComponent } from './links/links.component';
+import { GformComponent } from './gform/gform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    LinksComponent
+    LinksComponent,
+    GformComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

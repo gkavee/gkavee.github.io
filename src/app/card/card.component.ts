@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 
-const first = ["убица", "крови", "машина", "володя"];
+const words = ["убица", "крови", "машина", "володя"];
 const space = ["", "_", ".", "-", " "];
-const second = ["красный", "маньяк", "киллер", "репититор"];
 const images = [
   "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/e9/e939270df656f19fbeab44d29ebf36d93b1dd4d3_full.jpg",
   "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/64/64bb11a82c7752f61a1a6ef65941aa969e4ae28a_full.jpg",
@@ -24,11 +23,10 @@ export class CardComponent {
   constructor() { }
   
   changeNickname() {
-    const firstready = first[Math.floor(Math.random() * first.length)];
-    const secondready = second[Math.floor(Math.random() * second.length)];
+    const word = words[Math.floor(Math.random() * words.length)];
     const spaceready = space[Math.floor(Math.random() * space.length)];
     const number = Math.floor(Math.random() * 9999);
-    const preset = firstready + spaceready + secondready + spaceready + number;
+    const preset = word + spaceready + word + spaceready + number;
     this.nickname = preset
     this.imageUrl = images[Math.floor(Math.random() * images.length)];
   }

@@ -1,5 +1,5 @@
 <div class="card">
     <h2 id="copy">{{ nickname }}</h2>
     <img [src]="imageUrl">
-    <button (click)="changeNickname()">Сгенерировать</button>
+    <button (click)="changeNickname()" cdkCopyToClipboard="nickname">Сгенерировать</button>
 </div>
