@@ -24,8 +24,8 @@ export class CardComponent {
   constructor() { }
   
   changeNickname() {
-    const word1 = words[Math.floor(Math.random() * words.length)];
-    const word2 = words[Math.floor(Math.random() * words.length)];
+    const word1 = words1[Math.floor(Math.random() * words1.length)];
+    const word2 = words2[Math.floor(Math.random() * words2.length)];
     const spaceready = space[Math.floor(Math.random() * space.length)];
     const number = Math.floor(Math.random() * 9999);
     const preset = word1 + spaceready + word2 + spaceready + number;
